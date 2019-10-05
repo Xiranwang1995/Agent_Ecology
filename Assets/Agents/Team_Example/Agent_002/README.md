@@ -1,12 +1,12 @@
 ----
-## AGENT BUS
+## AGENT 000
 * Geometrical Constraints
 
->physical size is about: length: 39’2”; width: 8’4”; height: 9’10”.
+>Drone Example: physical size is between 3" - 24" radius. Additionally, it has a 4' buffer radius for pedestrians given the possibility for sporadic movement.
 
 * Turning Radius
 
->A typical inner turning radius is 21.5 feet. At its tightest turning angle, the rear overhang of the back bumper extends out to 43.3 feet.
+>Car Example: While at full speed, the vehicle has a turning radius of 10.82 m. While driving slowly the turning radius is 1 m.
 
 * Acceleration/Deceleration
 
@@ -19,3 +19,7 @@
 * Trajectory
 
 >Bus Example: Buses follow roads, typically staying to towards the outermost lane. A bus will pull over and stop at bus stops with waiting pedestrians or at a departure point designated by a rider.
+
+* Pathways
+
+>Dog Walker Example: Dog Walkers typically follow the path of other pedestrians, however they are more prone to venture into grassy areas to relieve their pets.

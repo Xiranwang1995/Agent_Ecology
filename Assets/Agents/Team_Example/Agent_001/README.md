@@ -1,22 +1,25 @@
 ----
-## AGENT school children
+## AGENT 000
 * Geometrical Constraints
 
->a child's physical size is about 12' radius. And his movement size is about 24' radius. Additionally, it has more area size if there is a group contains 2~4 children.
+>Drone Example: physical size is between 3" - 24" radius. Additionally, it has a 4' buffer radius for pedestrians given the possibility for sporadic movement.
 
+* Turning Radius
+
+>Car Example: While at full speed, the vehicle has a turning radius of 10.82 m. While driving slowly the turning radius is 1 m.
 
 * Acceleration/Deceleration
 
-> a child walk faster at 1.2 m/s, a group of children walk slower at 0.9 m/s
+>Motorcycle Example: At full acceleration, the bike reaches 100 km/h in 3 seconds. at 32 km/h, the bike's stopping distance is 12 m, while at 112 km/h the bike's stopping distance is 96 m.
 
 * Obstacle Interaction
 
->School children will stop for moving vehicles in the intersection when they walk , but will weave through stopped vehicles and moving pedestrians on the playboard.
+>Bike Example: Bicycles will stop for moving vehicles with a larger mass, but will weave through stopped vehicles and moving pedestrians.
 
 * Trajectory
 
->school children typically find their school bus and ride on the skateboard to go home or play.
+>Bus Example: Buses follow roads, typically staying to towards the outermost lane. A bus will pull over and stop at bus stops with waiting pedestrians or at a departure point designated by a rider.
 
 * Pathways
 
->school children walk on the sidewalk to take on the bus, play on the skateboard on the open space.
+>Dog Walker Example: Dog Walkers typically follow the path of other pedestrians, however they are more prone to venture into grassy areas to relieve their pets.

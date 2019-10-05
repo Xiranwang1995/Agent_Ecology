@@ -1,25 +1,25 @@
 ----
-## AGENT Skateboard
+## AGENT 000
 * Geometrical Constraints
 
-> physical size: width 7.87', length 30', height 3.94'
+>Drone Example: physical size is between 3" - 24" radius. Additionally, it has a 4' buffer radius for pedestrians given the possibility for sporadic movement.
 
 * Turning Radius
 
-> While at full speed, the skateboard has a turning radius of 2 m. While driving slowly the turning radius is 0.5 m.
+>Car Example: While at full speed, the vehicle has a turning radius of 10.82 m. While driving slowly the turning radius is 1 m.
 
 * Acceleration/Deceleration
 
->The anual speed is 2.8m/s, and the stop distance is 0.8m. at full acceleration, it reaches 4.2m/s, the stop distance is 2m.
+>Motorcycle Example: At full acceleration, the bike reaches 100 km/h in 3 seconds. at 32 km/h, the bike's stopping distance is 12 m, while at 112 km/h the bike's stopping distance is 96 m.
 
 * Obstacle Interaction
 
->skateboard will weave through pedestrians on the sidewalk, but will stop for moving vehicles with a larger mass on the road. 
+>Bike Example: Bicycles will stop for moving vehicles with a larger mass, but will weave through stopped vehicles and moving pedestrians.
 
 * Trajectory
 
->skateboard's trajectory is linear, and will start at the bus station, stay at the open area, and final end at home.
+>Bus Example: Buses follow roads, typically staying to towards the outermost lane. A bus will pull over and stop at bus stops with waiting pedestrians or at a departure point designated by a rider.
 
 * Pathways
 
->skateboard prefer at running on the road if there is less than 5 five vehicles around, but if there are many vehicles, children prefer to play the skateboard on the sidewalk.
+>Dog Walker Example: Dog Walkers typically follow the path of other pedestrians, however they are more prone to venture into grassy areas to relieve their pets.
